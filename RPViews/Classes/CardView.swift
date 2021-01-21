@@ -11,11 +11,10 @@ import UIKit
 @IBDesignable public class CardView: UIView {
     
     @IBInspectable public var cornerradius: CGFloat = 5.0 { didSet{ updateUI() } }
-    @IBInspectable public var setPrimColorBg: Bool = false { didSet{ updateUI() } }
     @IBInspectable public var bgColor: UIColor? = UIColor.white { didSet{ updateUI() } }
     @IBInspectable public var isGradient: Bool = false { didSet{ updateUI() } }
-    @IBInspectable public var startColor: UIColor? = nil { didSet{ updateUI() } }
-    @IBInspectable public var endColor: UIColor? = nil { didSet{ updateUI() } }
+    @IBInspectable public var startColor: UIColor? = UIColor.red { didSet{ updateUI() } }
+    @IBInspectable public var endColor: UIColor? = UIColor.green { didSet{ updateUI() } }
     
     var shadowOffSetWidth : CGFloat = 0
     var shadowOffSetHeight : CGFloat = 4 { didSet{ updateUI() } }
@@ -35,8 +34,6 @@ import UIKit
         layer.shadowOffset = CGSize(width: shadowOffSetWidth, height: shadowOffSetHeight)
         layer.shadowOpacity = 0.5
         layer.masksToBounds = false
-        startColor = UIColor(hexString: RPConstants.GRADIENT_LIGHT)!
-        endColor = UIColor(hexString: RPConstants.GRADIENT_DARK)!
     }
     
     public override func layoutSubviews() {
@@ -60,11 +57,7 @@ import UIKit
             gradientLayer.shadowPath = shadowPath.cgPath
             layer.insertSublayer(gradientLayer, at: 0)
         }else{
-            if (setPrimColorBg) {
-                self.backgroundColor = UIColor(hexString: RPConstants.APP_COLOR)!
-            }else{
                 self.backgroundColor = bgColor
-            }
             layer.shadowPath = shadowPath.cgPath
         }
         setNeedsDisplay()

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		033916429AE2B0FEE0CECF4C55FC3523 /* RPViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A93F66BE6B555582AE334C9BD2A3B2 /* RPViews-dummy.m */; };
 		308BB40025B94CD300552A8C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB3FF25B94CD300552A8C /* CardView.swift */; };
-		308BB41525B94F4800552A8C /* RPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB41425B94F4800552A8C /* RPConstants.swift */; };
 		308BB41D25B94FF400552A8C /* RPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB41C25B94FF400552A8C /* RPExtension.swift */; };
 		34267547B3C44C712D3BA386103861AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		51707FDC53B1EE9D7D3199A63A0404FE /* Pods-RPViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6933FC4C6DD64C787F7BCD21DF243C9D /* Pods-RPViews_Tests-dummy.m */; };
@@ -44,7 +43,6 @@
 		148185FDFB7B1674751A93A3D5BD373B /* Pods_RPViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		212A420595A2830D749699433AA0E823 /* Pods-RPViews_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPViews_Example-Info.plist"; sourceTree = "<group>"; };
 		308BB3FF25B94CD300552A8C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = RPViews/Classes/CardView.swift; sourceTree = "<group>"; };
-		308BB41425B94F4800552A8C /* RPConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPConstants.swift; path = RPViews/Classes/RPConstants.swift; sourceTree = "<group>"; };
 		308BB41C25B94FF400552A8C /* RPExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPExtension.swift; path = RPViews/Classes/RPExtension.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D2C81206EFD5E3D42504085C187E261 /* Pods-RPViews_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPViews_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 				BAFBF1B9935AAB4559108A296C8D39EA /* Pod */,
 				07D5A2FDB3B18932AA4C2BF3179FAAA1 /* Support Files */,
 				308BB3FF25B94CD300552A8C /* CardView.swift */,
-				308BB41425B94F4800552A8C /* RPConstants.swift */,
 				308BB41C25B94FF400552A8C /* RPExtension.swift */,
 			);
 			name = RPViews;
@@ -378,7 +375,6 @@
 			files = (
 				308BB40025B94CD300552A8C /* CardView.swift in Sources */,
 				308BB41D25B94FF400552A8C /* RPExtension.swift in Sources */,
-				308BB41525B94F4800552A8C /* RPConstants.swift in Sources */,
 				033916429AE2B0FEE0CECF4C55FC3523 /* RPViews-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

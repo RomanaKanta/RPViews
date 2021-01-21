@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		033916429AE2B0FEE0CECF4C55FC3523 /* RPViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A93F66BE6B555582AE334C9BD2A3B2 /* RPViews-dummy.m */; };
+		308BB40025B94CD300552A8C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB3FF25B94CD300552A8C /* CardView.swift */; };
+		308BB41525B94F4800552A8C /* RPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB41425B94F4800552A8C /* RPConstants.swift */; };
+		308BB41D25B94FF400552A8C /* RPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB41C25B94FF400552A8C /* RPExtension.swift */; };
 		34267547B3C44C712D3BA386103861AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		51707FDC53B1EE9D7D3199A63A0404FE /* Pods-RPViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6933FC4C6DD64C787F7BCD21DF243C9D /* Pods-RPViews_Tests-dummy.m */; };
 		57529B876C911201441D294D1578AE09 /* Pods-RPViews_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2C81206EFD5E3D42504085C187E261 /* Pods-RPViews_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B3CDA89112D9B927614F43E2874CC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8A7A7E655A922AAE1EBB1A56B88BD466 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F659120B2F67FEBD3B86B8D27052F7 /* ReplaceMe.swift */; };
 		8E1F5CBA9692BCDDCAA159545C3C0131 /* Pods-RPViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9893020AB7279B70A684F6E15C3FF267 /* Pods-RPViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3B76B3285BBBBA59FF19D8EDBF7E0E5 /* RPViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA08806028620ACC572BB6F51ECFACD /* RPViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E087B8376D2332EC6ACB1318BD0FBCF5 /* Pods-RPViews_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8114B39480E4B40BCB72DCA6411C5E /* Pods-RPViews_Example-dummy.m */; };
@@ -38,29 +40,32 @@
 
 /* Begin PBXFileReference section */
 		044EF20216F68FC7D382B7867264EAA5 /* RPViews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPViews-Info.plist"; sourceTree = "<group>"; };
-		06F0997F65FE832A6C70549B38AAC422 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		148185FDFB7B1674751A93A3D5BD373B /* Pods_RPViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPViews_Example.framework; path = "Pods-RPViews_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F0997F65FE832A6C70549B38AAC422 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		148185FDFB7B1674751A93A3D5BD373B /* Pods_RPViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		212A420595A2830D749699433AA0E823 /* Pods-RPViews_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPViews_Example-Info.plist"; sourceTree = "<group>"; };
+		308BB3FF25B94CD300552A8C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = RPViews/Classes/CardView.swift; sourceTree = "<group>"; };
+		308BB41425B94F4800552A8C /* RPConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPConstants.swift; path = RPViews/Classes/RPConstants.swift; sourceTree = "<group>"; };
+		308BB41C25B94FF400552A8C /* RPExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPExtension.swift; path = RPViews/Classes/RPExtension.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D2C81206EFD5E3D42504085C187E261 /* Pods-RPViews_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPViews_Example-umbrella.h"; sourceTree = "<group>"; };
 		46BE948392A450BD62B60FE1710FD1F0 /* RPViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPViews-prefix.pch"; sourceTree = "<group>"; };
-		4EA0F7E33451297477F4BF815D8E4C2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4FDA22C2769C60A64EEF300415C86496 /* Pods_RPViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPViews_Tests.framework; path = "Pods-RPViews_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA0F7E33451297477F4BF815D8E4C2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4FDA22C2769C60A64EEF300415C86496 /* Pods_RPViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		532EEC782A15D5E8246BF86D263B8E9F /* Pods-RPViews_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPViews_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5B8114B39480E4B40BCB72DCA6411C5E /* Pods-RPViews_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPViews_Example-dummy.m"; sourceTree = "<group>"; };
 		6933FC4C6DD64C787F7BCD21DF243C9D /* Pods-RPViews_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPViews_Tests-dummy.m"; sourceTree = "<group>"; };
 		695A7F376A58DE790553CCDE8D785C01 /* RPViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPViews.modulemap; sourceTree = "<group>"; };
 		6AEB4B152513609D85426298B0EAFD3D /* Pods-RPViews_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPViews_Tests-Info.plist"; sourceTree = "<group>"; };
-		74C19CE04E929299A7B2BFC72B8BDBE3 /* RPViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RPViews.framework; path = RPViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C19CE04E929299A7B2BFC72B8BDBE3 /* RPViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		779BAADECBF7C624E47B3EBDC698C96F /* Pods-RPViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPViews_Tests.modulemap"; sourceTree = "<group>"; };
 		7BA08806028620ACC572BB6F51ECFACD /* RPViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPViews-umbrella.h"; sourceTree = "<group>"; };
 		7D7E1F208E41A3DD020CCC38452EC481 /* Pods-RPViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPViews_Example.modulemap"; sourceTree = "<group>"; };
 		842E83B342AE901E70B8404EC69DB3AC /* Pods-RPViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		967312E66CACC96695224CD7020AA8B6 /* Pods-RPViews_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPViews_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9893020AB7279B70A684F6E15C3FF267 /* Pods-RPViews_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPViews_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B419EF794AF2DE63471A0BC84EEA7738 /* Pods-RPViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BBE2CF1E440C61AC538338E088E03BE8 /* RPViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RPViews.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBE2CF1E440C61AC538338E088E03BE8 /* RPViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RPViews.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD9E642EBC547E1F176F8B9873F33019 /* Pods-RPViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA54BA3012FE4AC5EA42374B5079A069 /* RPViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPViews.xcconfig; sourceTree = "<group>"; };
 		D029CDA9B6AB29A54628E42113FAFEBA /* Pods-RPViews_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPViews_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -68,7 +73,6 @@
 		E3A93F66BE6B555582AE334C9BD2A3B2 /* RPViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPViews-dummy.m"; sourceTree = "<group>"; };
 		EED8582B89F9D8C6CE8AAF61EBD63BF8 /* Pods-RPViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FE80F5A61F07FADE8A72AFD6CE71CD /* Pods-RPViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F9F659120B2F67FEBD3B86B8D27052F7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RPViews/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +136,11 @@
 		8CF8F0512627E434D08E454179CF3B29 /* RPViews */ = {
 			isa = PBXGroup;
 			children = (
-				F9F659120B2F67FEBD3B86B8D27052F7 /* ReplaceMe.swift */,
 				BAFBF1B9935AAB4559108A296C8D39EA /* Pod */,
 				07D5A2FDB3B18932AA4C2BF3179FAAA1 /* Support Files */,
+				308BB3FF25B94CD300552A8C /* CardView.swift */,
+				308BB41425B94F4800552A8C /* RPConstants.swift */,
+				308BB41C25B94FF400552A8C /* RPExtension.swift */,
 			);
 			name = RPViews;
 			path = ../..;
@@ -315,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					322CC7979065052AB81563E89EC3F916 = {
+						LastSwiftMigration = 1220;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -365,7 +376,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7A7E655A922AAE1EBB1A56B88BD466 /* ReplaceMe.swift in Sources */,
+				308BB40025B94CD300552A8C /* CardView.swift in Sources */,
+				308BB41D25B94FF400552A8C /* RPExtension.swift in Sources */,
+				308BB41525B94F4800552A8C /* RPConstants.swift in Sources */,
 				033916429AE2B0FEE0CECF4C55FC3523 /* RPViews-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA54BA3012FE4AC5EA42374B5079A069 /* RPViews.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -428,6 +442,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -472,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA54BA3012FE4AC5EA42374B5079A069 /* RPViews.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -516,7 +532,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RPViews_Example/Pods-RPViews_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RPViews_Example/Pods-RPViews_Example.modulemap";
@@ -549,7 +565,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RPViews_Example/Pods-RPViews_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RPViews_Example/Pods-RPViews_Example.modulemap";
@@ -620,8 +636,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

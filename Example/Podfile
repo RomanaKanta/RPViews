@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RPViews_Example' do
+  pod 'RPViews', :path => '../'
+
+  target 'RPViews_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

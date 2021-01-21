@@ -1,0 +1,16 @@
+PODS:
+  - RPViews (0.1.0)
+
+DEPENDENCIES:
+  - RPViews (from `../`)
+
+EXTERNAL SOURCES:
+  RPViews:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RPViews: b57c36dc9e4a0b6da01bfbf8b3a99ffcc4959b38
+
+PODFILE CHECKSUM: 03e1c1935c15c30e9d5d3d9ba76cc6c1d317065e
+
+COCOAPODS: 1.8.4

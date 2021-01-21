@@ -1,0 +1,22 @@
+{
+  "name": "RPViews",
+  "version": "0.1.0",
+  "summary": "A short description of RPViews.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dcckantacse@gmail.com/RPViews",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dcckantacse@gmail.com": "romana@mislbd.com"
+  },
+  "source": {
+    "git": "https://github.com/dcckantacse@gmail.com/RPViews.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RPViews/Classes/**/*"
+}

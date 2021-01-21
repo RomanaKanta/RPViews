@@ -1,0 +1,6 @@
+framework module RPViews {
+  umbrella header "RPViews-umbrella.h"
+
+  export *
+  module * { export * }
+}

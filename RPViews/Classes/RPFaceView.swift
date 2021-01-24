@@ -11,11 +11,10 @@ import UIKit
 @IBDesignable public class DrawFace: UIView {
     
     var circleLayer: CAShapeLayer!
-    
+        
     override init(frame: CGRect) {
         super.init(frame: frame)
         initCustomView()
-        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -26,8 +25,7 @@ import UIKit
     fileprivate func initCustomView() {
         self.backgroundColor = UIColor.clear
      
-        circleLayer = CAShapeLayer()
-        
+        circleLayer = CAShapeLayer()        
         // Add the circleLayer to the view's layer's sublayers
         layer.addSublayer(circleLayer)
     }
@@ -58,7 +56,7 @@ import UIKit
 //        circleLayer = CAShapeLayer()
         circleLayer.path = shapeLayerPath.cgPath
         circleLayer.fillColor = UIColor.clear.cgColor
-        circleLayer.strokeColor = UIColor(hexString: AppConstant.SECONDARY_COLOR)?.cgColor
+        circleLayer.strokeColor = UIColor.black.cgColor
         circleLayer.lineWidth = 2.0;
         
         // Don't draw the circle initially

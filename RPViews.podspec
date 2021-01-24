@@ -30,6 +30,7 @@ Custom UIView lib for iOS app. INstall library inot project, never have to write
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5'
+  s.static_framework = true
 
   s.source_files = 'RPViews/Classes/**/*'
   
@@ -39,5 +40,5 @@ Custom UIView lib for iOS app. INstall library inot project, never have to write
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'Material', '~> 3.1.0'
+  s.dependency 'Material', '~> 3.1.8'
 end

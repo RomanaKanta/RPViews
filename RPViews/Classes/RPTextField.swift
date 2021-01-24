@@ -13,7 +13,8 @@ public class CustomTextField: TextField {
     
     @IBInspectable public var leftIcon: UIImage? = nil { didSet{ updateUI() } }
     @IBInspectable public var rightIcon: UIImage? = nil { didSet{ updateUI() } }
-    @IBInspectable public var iconTintColor: UIColor? { didSet{ updateUI() } }
+    @IBInspectable public var iconTintColor: UIColor = UIColor.black { didSet{ updateUI() } }
+    @IBInspectable public var textTintColor: UIColor = UIColor.black { didSet{ updateUI() } }
     
     let imageSize: CGFloat = 30
     let imagePadding: CGFloat = 3
@@ -32,16 +33,15 @@ public class CustomTextField: TextField {
         
         self.detailVerticalOffset = 1.0
         
-        iconTintColor = UIColor(hexString:  AppConstant.SECONDARY_COLOR)
         self.detailColor = UIColor.red
         
         self.isClearIconButtonEnabled = isUserInteractionEnabled
         
-        self.textColor = UIColor(hexString: AppConstant.LABLE_COLOR)
-        self.placeholderActiveColor = UIColor(hexString: AppConstant.LABLE_COLOR)!
-        self.placeholderNormalColor = UIColor(hexString: AppConstant.LABLE_COLOR)!
-        self.dividerNormalColor = UIColor(hexString: AppConstant.LABLE_COLOR)!
-        self.dividerActiveColor = UIColor(hexString: AppConstant.SECONDARY_COLOR)!
+        self.textColor = textTintColor
+        self.placeholderActiveColor = textTintColor
+        self.placeholderNormalColor = textTintColor
+        self.dividerNormalColor = textTintColor
+        self.dividerActiveColor = iconTintColor
     }
     
     func updateUI(){
@@ -93,7 +93,7 @@ public class CustomTextField: TextField {
     fileprivate var firstDraw: Bool = true
       
     @IBInspectable public var textFont: UIFont = UIFont.systemFont(ofSize: 15.0) { didSet{ updateUI() } }
-    @IBInspectable public var textColor: UIColor = UIColor(hexString: AppConstant.LABLE_COLOR)! { didSet{ updateUI() } }
+    @IBInspectable public var textColor: UIColor = UIColor.black { didSet{ updateUI() } }
     @IBInspectable public var text: String = "" { didSet{ updateUI() } }
     @IBInspectable public var placeHolder: String = "" { didSet{ updateUI() } }
     @IBInspectable public var error: String = "" { didSet{ updateUI() } }
@@ -139,7 +139,7 @@ public class CustomTextField: TextField {
     
     func getLabel() -> String{
         
-        if ((labelValue.text == placeHolder.localizedValue) ||
+        if ((labelValue.text == placeHolder) ||
             (labelValue.text == nil) ||
             (labelValue.text!.isEmpty)) {
             return ""
@@ -151,7 +151,7 @@ public class CustomTextField: TextField {
     fileprivate func updateUI() {
         if (labelValue != nil) {
             labelValue.font = textFont
-            labelValue.placeholder = placeHolder.localizedValue
+            labelValue.placeholder = placeHolder
             labelValue.text = text
             labelValue.textColor = textColor
             labelValue.detail = error

@@ -39,5 +39,5 @@ Custom UIView lib for iOS app. INstall library inot project, never have to write
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Material', '~> 3.1.0'
 end

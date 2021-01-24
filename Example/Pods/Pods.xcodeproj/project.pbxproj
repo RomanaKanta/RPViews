@@ -8,7 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		033916429AE2B0FEE0CECF4C55FC3523 /* RPViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A93F66BE6B555582AE334C9BD2A3B2 /* RPViews-dummy.m */; };
-		308BB40025B94CD300552A8C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB3FF25B94CD300552A8C /* CardView.swift */; };
+		3052DDD925B98EEB00C6B1F5 /* RPButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052DDD825B98EEB00C6B1F5 /* RPButtonView.swift */; };
+		3052DDE125B990BA00C6B1F5 /* RPChecekBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052DDE025B990BA00C6B1F5 /* RPChecekBox.swift */; };
+		3052DDE625B9929500C6B1F5 /* RPAutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052DDE525B9929500C6B1F5 /* RPAutoCompleteTextField.swift */; };
+		3052DDF325B9998900C6B1F5 /* RPCustomDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052DDF225B9998900C6B1F5 /* RPCustomDesign.swift */; };
+		3052DE0625B99ABD00C6B1F5 /* RPDraggableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052DE0525B99ABD00C6B1F5 /* RPDraggableButton.swift */; };
+		3052DE0B25B99BBF00C6B1F5 /* RPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052DE0A25B99BBF00C6B1F5 /* RPImageView.swift */; };
+		3052DE1325B99D0500C6B1F5 /* RPLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052DE1225B99D0500C6B1F5 /* RPLabel.swift */; };
+		3052DE1825B99E0400C6B1F5 /* RPPasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052DE1725B99E0400C6B1F5 /* RPPasswordField.swift */; };
+		3083EF3125BD562600F3241E /* RPPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF3025BD562600F3241E /* RPPickerView.swift */; };
+		3083EF3625BD565100F3241E /* RPRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF3525BD565100F3241E /* RPRadioButton.swift */; };
+		3083EF3B25BD720300F3241E /* RPRefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF3A25BD720300F3241E /* RPRefreshController.swift */; };
+		3083EF4025BD72AE00F3241E /* RPSteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF3F25BD72AE00F3241E /* RPSteppedProgressBar.swift */; };
+		3083EF4525BD745800F3241E /* RPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF4425BD745800F3241E /* RPTextField.swift */; };
+		3083EF4C25BD74D800F3241E /* RPViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF4B25BD74D800F3241E /* RPViewExtension.swift */; };
+		3083EF5125BD752A00F3241E /* RPFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF5025BD752A00F3241E /* RPFaceView.swift */; };
+		3083EF5625BD756100F3241E /* RPPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF5525BD756100F3241E /* RPPullToRefreshView.swift */; };
+		3083EF5B25BD75B500F3241E /* RPSwiftySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083EF5A25BD75B500F3241E /* RPSwiftySwitch.swift */; };
+		308BB40025B94CD300552A8C /* RPCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB3FF25B94CD300552A8C /* RPCardView.swift */; };
 		308BB41D25B94FF400552A8C /* RPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BB41C25B94FF400552A8C /* RPExtension.swift */; };
 		34267547B3C44C712D3BA386103861AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		51707FDC53B1EE9D7D3199A63A0404FE /* Pods-RPViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6933FC4C6DD64C787F7BCD21DF243C9D /* Pods-RPViews_Tests-dummy.m */; };
@@ -42,7 +59,24 @@
 		06F0997F65FE832A6C70549B38AAC422 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		148185FDFB7B1674751A93A3D5BD373B /* Pods_RPViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		212A420595A2830D749699433AA0E823 /* Pods-RPViews_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPViews_Example-Info.plist"; sourceTree = "<group>"; };
-		308BB3FF25B94CD300552A8C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = RPViews/Classes/CardView.swift; sourceTree = "<group>"; };
+		3052DDD825B98EEB00C6B1F5 /* RPButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPButtonView.swift; path = RPViews/Classes/RPButtonView.swift; sourceTree = "<group>"; };
+		3052DDE025B990BA00C6B1F5 /* RPChecekBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPChecekBox.swift; path = RPViews/Classes/RPChecekBox.swift; sourceTree = "<group>"; };
+		3052DDE525B9929500C6B1F5 /* RPAutoCompleteTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPAutoCompleteTextField.swift; path = RPViews/Classes/RPAutoCompleteTextField.swift; sourceTree = "<group>"; };
+		3052DDF225B9998900C6B1F5 /* RPCustomDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPCustomDesign.swift; path = RPViews/Classes/RPCustomDesign.swift; sourceTree = "<group>"; };
+		3052DE0525B99ABD00C6B1F5 /* RPDraggableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPDraggableButton.swift; path = RPViews/Classes/RPDraggableButton.swift; sourceTree = "<group>"; };
+		3052DE0A25B99BBF00C6B1F5 /* RPImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPImageView.swift; path = RPViews/Classes/RPImageView.swift; sourceTree = "<group>"; };
+		3052DE1225B99D0500C6B1F5 /* RPLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPLabel.swift; path = RPViews/Classes/RPLabel.swift; sourceTree = "<group>"; };
+		3052DE1725B99E0400C6B1F5 /* RPPasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPPasswordField.swift; path = RPViews/Classes/RPPasswordField.swift; sourceTree = "<group>"; };
+		3083EF3025BD562600F3241E /* RPPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPPickerView.swift; path = RPViews/Classes/RPPickerView.swift; sourceTree = "<group>"; };
+		3083EF3525BD565100F3241E /* RPRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPRadioButton.swift; path = RPViews/Classes/RPRadioButton.swift; sourceTree = "<group>"; };
+		3083EF3A25BD720300F3241E /* RPRefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPRefreshController.swift; path = RPViews/Classes/RPRefreshController.swift; sourceTree = "<group>"; };
+		3083EF3F25BD72AE00F3241E /* RPSteppedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPSteppedProgressBar.swift; path = RPViews/Classes/RPSteppedProgressBar.swift; sourceTree = "<group>"; };
+		3083EF4425BD745800F3241E /* RPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPTextField.swift; path = RPViews/Classes/RPTextField.swift; sourceTree = "<group>"; };
+		3083EF4B25BD74D800F3241E /* RPViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPViewExtension.swift; path = RPViews/Classes/RPViewExtension.swift; sourceTree = "<group>"; };
+		3083EF5025BD752A00F3241E /* RPFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPFaceView.swift; path = RPViews/Classes/RPFaceView.swift; sourceTree = "<group>"; };
+		3083EF5525BD756100F3241E /* RPPullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPPullToRefreshView.swift; path = RPViews/Classes/RPPullToRefreshView.swift; sourceTree = "<group>"; };
+		3083EF5A25BD75B500F3241E /* RPSwiftySwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPSwiftySwitch.swift; path = RPViews/Classes/RPSwiftySwitch.swift; sourceTree = "<group>"; };
+		308BB3FF25B94CD300552A8C /* RPCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPCardView.swift; path = RPViews/Classes/RPCardView.swift; sourceTree = "<group>"; };
 		308BB41C25B94FF400552A8C /* RPExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RPExtension.swift; path = RPViews/Classes/RPExtension.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D2C81206EFD5E3D42504085C187E261 /* Pods-RPViews_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPViews_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -136,8 +170,25 @@
 			children = (
 				BAFBF1B9935AAB4559108A296C8D39EA /* Pod */,
 				07D5A2FDB3B18932AA4C2BF3179FAAA1 /* Support Files */,
-				308BB3FF25B94CD300552A8C /* CardView.swift */,
+				308BB3FF25B94CD300552A8C /* RPCardView.swift */,
 				308BB41C25B94FF400552A8C /* RPExtension.swift */,
+				3052DDD825B98EEB00C6B1F5 /* RPButtonView.swift */,
+				3052DDE025B990BA00C6B1F5 /* RPChecekBox.swift */,
+				3052DDE525B9929500C6B1F5 /* RPAutoCompleteTextField.swift */,
+				3052DDF225B9998900C6B1F5 /* RPCustomDesign.swift */,
+				3052DE0525B99ABD00C6B1F5 /* RPDraggableButton.swift */,
+				3052DE0A25B99BBF00C6B1F5 /* RPImageView.swift */,
+				3052DE1225B99D0500C6B1F5 /* RPLabel.swift */,
+				3052DE1725B99E0400C6B1F5 /* RPPasswordField.swift */,
+				3083EF3025BD562600F3241E /* RPPickerView.swift */,
+				3083EF3525BD565100F3241E /* RPRadioButton.swift */,
+				3083EF3A25BD720300F3241E /* RPRefreshController.swift */,
+				3083EF3F25BD72AE00F3241E /* RPSteppedProgressBar.swift */,
+				3083EF4425BD745800F3241E /* RPTextField.swift */,
+				3083EF4B25BD74D800F3241E /* RPViewExtension.swift */,
+				3083EF5025BD752A00F3241E /* RPFaceView.swift */,
+				3083EF5525BD756100F3241E /* RPPullToRefreshView.swift */,
+				3083EF5A25BD75B500F3241E /* RPSwiftySwitch.swift */,
 			);
 			name = RPViews;
 			path = ../..;
@@ -373,8 +424,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308BB40025B94CD300552A8C /* CardView.swift in Sources */,
+				3083EF5625BD756100F3241E /* RPPullToRefreshView.swift in Sources */,
+				3083EF3625BD565100F3241E /* RPRadioButton.swift in Sources */,
+				3083EF3125BD562600F3241E /* RPPickerView.swift in Sources */,
+				3052DDF325B9998900C6B1F5 /* RPCustomDesign.swift in Sources */,
+				308BB40025B94CD300552A8C /* RPCardView.swift in Sources */,
+				3083EF5B25BD75B500F3241E /* RPSwiftySwitch.swift in Sources */,
+				3052DE0625B99ABD00C6B1F5 /* RPDraggableButton.swift in Sources */,
 				308BB41D25B94FF400552A8C /* RPExtension.swift in Sources */,
+				3052DDD925B98EEB00C6B1F5 /* RPButtonView.swift in Sources */,
+				3083EF5125BD752A00F3241E /* RPFaceView.swift in Sources */,
+				3083EF4525BD745800F3241E /* RPTextField.swift in Sources */,
+				3052DDE625B9929500C6B1F5 /* RPAutoCompleteTextField.swift in Sources */,
+				3083EF4025BD72AE00F3241E /* RPSteppedProgressBar.swift in Sources */,
+				3052DE0B25B99BBF00C6B1F5 /* RPImageView.swift in Sources */,
+				3052DDE125B990BA00C6B1F5 /* RPChecekBox.swift in Sources */,
+				3052DE1325B99D0500C6B1F5 /* RPLabel.swift in Sources */,
+				3083EF4C25BD74D800F3241E /* RPViewExtension.swift in Sources */,
+				3083EF3B25BD720300F3241E /* RPRefreshController.swift in Sources */,
+				3052DE1825B99E0400C6B1F5 /* RPPasswordField.swift in Sources */,
 				033916429AE2B0FEE0CECF4C55FC3523 /* RPViews-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +498,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RPViews/RPViews-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RPViews/RPViews-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RPViews/RPViews.modulemap";
 				PRODUCT_MODULE_NAME = RPViews;
@@ -439,7 +507,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -496,7 +564,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RPViews/RPViews-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RPViews/RPViews-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RPViews/RPViews.modulemap";
 				PRODUCT_MODULE_NAME = RPViews;
@@ -504,7 +572,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

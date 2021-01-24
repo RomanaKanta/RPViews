@@ -1,5 +1,5 @@
 //
-//  CardView.swift
+//  RPCardView.swift
 //  RPViews
 //
 //  Created by Romana on 21/1/21.
@@ -13,8 +13,8 @@ import UIKit
     @IBInspectable public var cornerradius: CGFloat = 5.0 { didSet{ updateUI() } }
     @IBInspectable public var bgColor: UIColor? = UIColor.white { didSet{ updateUI() } }
     @IBInspectable public var isGradient: Bool = false { didSet{ updateUI() } }
-    @IBInspectable public var startColor: UIColor? = UIColor.red { didSet{ updateUI() } }
-    @IBInspectable public var endColor: UIColor? = UIColor.green { didSet{ updateUI() } }
+    @IBInspectable public var startColor: UIColor? = UIColor.gray { didSet{ updateUI() } }
+    @IBInspectable public var endColor: UIColor? = UIColor.black { didSet{ updateUI() } }
     
     var shadowOffSetWidth : CGFloat = 0
     var shadowOffSetHeight : CGFloat = 4 { didSet{ updateUI() } }

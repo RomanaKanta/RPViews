@@ -46,7 +46,7 @@
 		D7DD65BA52079183063FE89F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DF34F79D238171299CF15DC4 /* Pods-RPViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPViews_Tests.release.xcconfig"; path = "Target Support Files/Pods-RPViews_Tests/Pods-RPViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E14417571A958B0C43481776 /* Pods-RPViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPViews_Example.release.xcconfig"; path = "Target Support Files/Pods-RPViews_Example/Pods-RPViews_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F395F97AC4F7ED8329BB47DA /* RPViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RPViews.podspec; path = ../RPViews.podspec; sourceTree = "<group>"; };
+		F395F97AC4F7ED8329BB47DA /* RPViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RPViews.podspec; path = ../RPViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,7 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
